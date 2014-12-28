@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="3dip"
+        android:text="@string/smartPoster"
+        android:textStyle="bold" />
+
+    <TableLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:stretchColumns="1" >
+
+        <TableRow>
+
+            <TextView
+                android:id="@+id/smartPosterTitleDescriptor"
+                android:layout_column="1"
+                android:padding="3dip"
+                android:text="@string/smartPosterTitle" />
+
+            <TextView
+                android:id="@+id/smartPosterTitleValue"
+                android:gravity="left"
+                android:padding="3dip" />
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:layout_column="1"
+                android:padding="3dip"
+                android:text="@string/smartPosterURI" />
+
+            <TextView
+                android:id="@+id/smartPosterURIValue"
+                android:gravity="left"
+                android:padding="3dip" />
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:layout_column="1"
+                android:padding="3dip"
+                android:text="@string/smartPosterAction" />
+
+            <TextView
+                android:id="@+id/smartPosterActionValue"
+                android:gravity="left"
+                android:padding="3dip" />
+        </TableRow>
+    </TableLayout>
+
+</LinearLayout>

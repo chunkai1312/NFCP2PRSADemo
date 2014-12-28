@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <PreferenceCategory 
+        android:title="@string/pref_category_rsa" >
+        
+	    <Preference
+	        android:key="public_key"
+	        android:persistent="true"
+	        android:summary="@string/click_to_show_public_key"
+	        android:title="@string/pref_public_key" />   
+ 
+	    <Preference
+	        android:key="private_key"
+	        android:persistent="true"
+	        android:summary="@string/click_to_show_private_key"
+	        android:title="@string/pref_private_key" /> 	    
+	    
+    </PreferenceCategory>    
+    
+    <PreferenceCategory 
+        android:title="@string/pref_category_aes" >
+        
+	    <Preference
+	        android:key="secret_key"
+	        android:persistent="true"
+	        android:title="@string/pref_secret_key" />   
+        
+    </PreferenceCategory>   
+
+</PreferenceScreen>

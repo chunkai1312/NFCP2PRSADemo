@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/label"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:padding="3dip"
+        android:text="@string/alternativeCarrier"
+        android:textStyle="bold" />
+
+    <TableLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:stretchColumns="1" >
+
+        <TableRow>
+
+            <TextView
+                android:layout_column="1"
+                android:padding="3dip"
+                android:text="@string/alternativeCarrierCarrierPowerState" />
+
+            <TextView
+                android:id="@+id/alternativeCarrierCarrierPowerStateValue"
+                android:gravity="left"
+                android:padding="3dip" />
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:layout_column="1"
+                android:padding="3dip"
+                android:text="@string/alternativeCarrierCarrierDataReference" />
+
+            <TextView
+                android:id="@+id/alternativeCarrierCarrierDataReferenceValue"
+                android:gravity="left"
+                android:padding="3dip" />
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:layout_column="1"
+                android:padding="3dip"
+                android:text="@string/alternativeCarrierAuxiliaryDataReferences" />
+
+            <TextView
+                android:id="@+id/alternativeCarrierAuxiliaryDataReferencesValue"
+                android:gravity="left"
+                android:padding="3dip" />
+        </TableRow>
+    </TableLayout>
+
+</LinearLayout>
